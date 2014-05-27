@@ -1,6 +1,7 @@
 package foo.bar;
 
 import java.rmi.RemoteException;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,6 +18,10 @@ public class EventStore implements  IEventStore{
 
     public EventStore() {
     }
+
+    public LinkedList<Event> getEventByTime(Date date) {
+        return null;
+    };
 
     public LinkedList<Event> getEventByAttender (String attender) {
         key.setValue(EventPrefix.ATTENDER,attender);

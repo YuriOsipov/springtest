@@ -2,6 +2,7 @@ package foo.bar;
 
 import java.io.Serializable;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -11,19 +12,18 @@ public class Event implements Serializable{
     private UUID id;
     private String title;
     private String[] attenders;
+    private Date dateStart;
+    private Date dateEnd;
 
-    private Event(Builder builder) {
-        this.id = builder.id;
-        this.title = builder.title;
-        this.attenders = builder.attenders;
-    }
-
-    public Event(String id, String title, String[] attenders) {
+    public Event(String id, String title, String[] attenders, Date dateStart, Date dateEnd) {
         if (id==null) this.id=UUID.randomUUID();
         else
-        this.id = UUID.fromString(id);
+            this.id = UUID.fromString(id);
         this.title = title;
         this.attenders = attenders;
+        this.dateStart = dateStart;
+        this.dateEnd = dateEnd;
+
     }
 
     public UUID getId() {
@@ -38,6 +38,13 @@ public class Event implements Serializable{
         return attenders;
     }
 
+
+
+    public Date getDateStart() {        return dateStart;    }
+
+    public Date getDateEnd() {      return dateEnd;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -45,7 +52,9 @@ public class Event implements Serializable{
 
         Event event = (Event) o;
 
-        if (attenders != null ? !attenders.equals(event.attenders) : event.attenders != null) return false;
+        if (!Arrays.equals(attenders, event.attenders)) return false;
+        if (dateEnd != null ? !dateEnd.equals(event.dateEnd) : event.dateEnd != null) return false;
+        if (dateStart != null ? !dateStart.equals(event.dateStart) : event.dateStart != null) return false;
         if (id != null ? !id.equals(event.id) : event.id != null) return false;
         if (title != null ? !title.equals(event.title) : event.title != null) return false;
 
@@ -56,7 +65,9 @@ public class Event implements Serializable{
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (title != null ? title.hashCode() : 0);
-        result = 31 * result + (attenders != null ? attenders.hashCode() : 0);
+        result = 31 * result + (attenders != null ? Arrays.hashCode(attenders) : 0);
+        result = 31 * result + (dateStart != null ? dateStart.hashCode() : 0);
+        result = 31 * result + (dateEnd != null ? dateEnd.hashCode() : 0);
         return result;
     }
 
@@ -66,35 +77,8 @@ public class Event implements Serializable{
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", attenders=" + Arrays.toString(attenders) +
+                ", dateStart=" + dateStart +
+                ", dateEnd=" + dateEnd +
                 '}';
-    }
-
-
-    public static class Builder {
-        private UUID id;
-        private String title;
-        private String[] attenders;
-
-        public Builder() {
-        }
-
-        public Builder setId(UUID id) {
-            this.id = id;
-            return this;
-        }
-
-        public Builder setTitle(String title) {
-            this.title = title;
-            return this;
-        }
-
-        public Builder setAttenders(String[] attenders) {
-            this.attenders = attenders;
-            return this;
-        }
-
-        public Event  build () {
-            return new Event(this);
-        }
     }
 }

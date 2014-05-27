@@ -64,19 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/foo/bar/SpringAppTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="56" selection-start="1824" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="901">
+            <state line="9" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -85,10 +76,8 @@
       <file leaf-file-name="EventClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="16" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +85,7 @@
       <file leaf-file-name="clientApplicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/clientApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="76" selection-start="464" selection-end="464" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="289">
+            <state line="11" column="8" selection-start="561" selection-end="561" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -105,10 +94,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="67" selection-start="637" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="18" column="67" selection-start="637" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +103,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+            <state line="9" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -125,18 +112,16 @@
       <file leaf-file-name="IEventStore.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="390" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventKey.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EventKey.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.32210526" vertical-offset="0" max-vertical-offset="748">
+            <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -145,16 +130,32 @@
       <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-              <folding />
+            <state line="73" column="3" selection-start="2073" selection-end="2389" vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="1377">
+              <folding>
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventStore.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EventFullDay.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventFullDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="46" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventStore.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="884">
+            <state line="27" column="21" selection-start="649" selection-end="655" vertical-scroll-proportion="0.5010526" vertical-offset="153" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -181,12 +182,14 @@
         <option value="$PROJECT_DIR$/src/test/java/foo/bar/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/foo/bar/IServerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/foo/bar/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/foo/bar/EventClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/foo/bar/EventExt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/foo/bar/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/foo/bar/EventFullDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/foo/bar/EventStore.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/foo/bar/EventClient.java" />
         <option value="$PROJECT_DIR$/src/main/resources/clientApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/foo/bar/Event.java" />
       </list>
     </option>
   </component>
@@ -252,13 +255,40 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="springtest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -327,6 +357,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -347,6 +378,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -680,15 +712,16 @@
       <workItem from="1401114183270" duration="3011000" />
       <workItem from="1401170633278" duration="840000" />
       <workItem from="1401174934843" duration="2813000" />
+      <workItem from="1401184640189" duration="3596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15223000" />
+    <option name="totallyTimeSpent" value="18819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -710,7 +743,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32725832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26703644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26703644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20061256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,6 +782,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="56" selection-start="1824" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/clientApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="76" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="637" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1802">
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/foo/bar/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="40" selection-start="1353" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="748">
           <folding />
         </state>
@@ -757,18 +865,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="35" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +886,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="8" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1785">
-          <folding />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +919,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +933,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="8" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1785">
-          <folding />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +973,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="36" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1445">
-          <folding />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +1013,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="26" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1632">
-          <folding />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -941,64 +1063,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="884">
+        <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="637" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="73" column="3" selection-start="2073" selection-end="2389" vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="1377">
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventFullDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="637" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="56" selection-start="1824" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="901">
+        <state line="9" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/clientApplicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="76" selection-start="464" selection-end="464" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="289">
+        <state line="11" column="8" selection-start="561" selection-end="561" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="390" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/IEventStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+        <state line="16" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventKey.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/foo/bar/EventStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.32210526" vertical-offset="0" max-vertical-offset="748">
+        <state line="27" column="21" selection-start="649" selection-end="655" vertical-scroll-proportion="0.5010526" vertical-offset="153" max-vertical-offset="952">
           <folding />
         </state>
       </provider>

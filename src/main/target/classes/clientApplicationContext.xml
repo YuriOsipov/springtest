@@ -5,7 +5,7 @@
 
 
     <bean id="calendarService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
-        <property name="serviceUrl" value="rmi://localhost:1199/EventService"/>
+        <property name="serviceUrl" value="rmi://127.0.0.1:1199/EventService"/>
         <property name="serviceInterface" value="foo.bar.IEventStore"/>
     </bean>
 
