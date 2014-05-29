@@ -31,7 +31,7 @@
         <constructor-arg name="attenders">
             <array value-type="java.lang.String">
                 <value>111@mail.ua</value>
-                <value>222@mail.ua</value>
+                <value>333@mail.ua</value>
             </array>
         </constructor-arg>
         <constructor-arg name="dateStart" value="2014/05/30 14:00"/>

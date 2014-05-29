@@ -25,6 +25,9 @@ public class Event implements Serializable{
         this.dateEnd = dateEnd;
 
     }
+    public  boolean isInTime (Date date) {
+     return getDateEnd().compareTo(date)>=0 && getDateStart().compareTo(date)<=0;
+    }
 
     public UUID getId() {
         return id;
