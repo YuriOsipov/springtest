@@ -16,12 +16,12 @@ public class EventClient {
         IEventStore service = (IEventStore) context.getBean("calendarService");
         FilterByTitle filterByTitle = new FilterByTitle("second",null);
         FilterByDate filter = new FilterByDate(new Date("2014/05/30 11:30"),null);
-        FilterByAttender filterByAttender = new FilterByAttender("111@mail.ua",filter);
+        FilterByAttender filterByAttender = new FilterByAttender("111@mail.ua",null);
         System.out.println(service.getEventByFilter(filterByAttender));
 
         System.out.println(service.isAttenderAvailable("111@mail.ua", new Date("2014/04/30 14:30")));
         //"111@mail.ua"
-
+     // service.saveAllEvents();
 
 
 

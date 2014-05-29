@@ -14,10 +14,11 @@ public class Main {
         Event second = (Event) context.getBean("second");
 
 
-        eventStore.addEvent(first);
-        eventStore.addEvent(second);
+     ///   eventStore.addEvent(first);
+      //  eventStore.addEvent(second);
       //  System.out.println(eventStore.getEventByAttender("111@mail.ua"));
       //  System.out.println(eventStore.getEventByTitle("first"));
+
 
 
     }

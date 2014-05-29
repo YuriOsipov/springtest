@@ -16,4 +16,5 @@ public interface IEventStore extends Remote{
     public Date getAvailableTime (Date date) throws RemoteException;
 
     public void addEvent (Event event) throws RemoteException;
+     public  void saveAllEvents () throws  RemoteException;
 }
