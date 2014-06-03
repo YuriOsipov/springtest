@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventAdapter>
+    <attenders>111@mail.ua</attenders>
+    <attenders>333@mail.ua</attenders>
+    <dateEnd>2014-05-30T15:00:00+03:00</dateEnd>
+    <dateStart>2014-05-30T14:00:00+03:00</dateStart>
+    <id>8cd31233-d2a8-4854-943d-ada5ea7e7093</id>
+    <title>second</title>
+</eventAdapter>

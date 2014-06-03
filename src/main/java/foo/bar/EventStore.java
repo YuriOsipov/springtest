@@ -21,7 +21,11 @@ import java.util.LinkedList;
 public class EventStore implements  IEventStore{
 
     private ArrayList<Event> events = new ArrayList();
+    String ROOT = Paths.get("").toAbsolutePath()+"\\db\\";
 
+    public Boolean isEmpty() {
+      return events.size()==0;
+    }
 
     public EventStore() throws JAXBException,IOException{
         LoadEvents();
@@ -62,7 +66,7 @@ public class EventStore implements  IEventStore{
             context = JAXBContext.newInstance(EventAdapter.class);
             Marshaller m = context.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            m.marshal(eventAdapter, new File("d:\\temp\\"+ eventAdapter.getId() +". xml"));
+            m.marshal(eventAdapter, new File(ROOT+ eventAdapter.getId() +". xml"));
         } catch (JAXBException e) {
             e.printStackTrace();
         }
@@ -74,7 +78,7 @@ public class EventStore implements  IEventStore{
 
 
     public  void LoadEvents () throws  IOException{
-           String ROOT = "d:\\temp\\";
+
            FileVisitor<Path> fileProcessor = new ProcessFile();
            Files.walkFileTree(Paths.get(ROOT), fileProcessor);
     }

@@ -8,9 +8,9 @@ import java.util.concurrent.Executors;
 /**
  * Created by Admin on 03.06.14.
  */
-public class EvenStoreMultiThread extends EventStore {
+public class EventStoreMultiThread extends EventStore {
 
-    public EvenStoreMultiThread() throws JAXBException, IOException {
+    public EventStoreMultiThread() throws JAXBException, IOException {
         ExecutorService service = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() * 3);
         service.execute(new Runnable() {
             public void run()  {
