@@ -9,8 +9,8 @@
     <context:component-scan base-package="foo.bar"/>
 
 
-    <bean id="first" class="foo.bar.Event">
-        <constructor-arg name="id">
+    <bean id="first" class="foo.bar.EventAdapter">
+        <constructor-arg name="">
             <null />
         </constructor-arg>
         <constructor-arg name="title" value="first"/>
@@ -38,7 +38,7 @@
         <constructor-arg name="dateEnd" value="2014/05/30 15:00"/>
     </bean>
 
-    <bean id="eventStore" class="foo.bar.EventStore" />
+    <bean id="eventStore" class="foo.bar.EvenStoreMultiThread" />
 
     <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
         <!-- does not necessarily have to be the same name as the bean to be exported -->

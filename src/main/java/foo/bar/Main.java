@@ -10,14 +10,14 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         IEventStore eventStore = (IEventStore) context.getBean("eventStore");
-        Event first = (Event) context.getBean("first");
-        Event second = (Event) context.getBean("second");
+//        Event first = (Event) context.getBean("first");
+//        Event second = (Event) context.getBean("second");
+
+//        eventStore.addEvent(first);
+//        eventStore.addEvent(second);
+//        eventStore.saveAllEvents();
 
 
-     ///   eventStore.addEvent(first);
-      //  eventStore.addEvent(second);
-      //  System.out.println(eventStore.getEventByAttender("111@mail.ua"));
-      //  System.out.println(eventStore.getEventByTitle("first"));
 
 
 

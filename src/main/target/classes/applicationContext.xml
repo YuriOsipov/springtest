@@ -38,7 +38,7 @@
         <constructor-arg name="dateEnd" value="2014/05/30 15:00"/>
     </bean>
 
-    <bean id="eventStore" class="foo.bar.EventStore" />
+    <bean id="eventStore" class="foo.bar.EvenStoreMultiThread" />
 
     <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
         <!-- does not necessarily have to be the same name as the bean to be exported -->

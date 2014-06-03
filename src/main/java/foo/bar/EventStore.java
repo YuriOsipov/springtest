@@ -4,14 +4,14 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import java.awt.print.Book;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.rmi.RemoteException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.LinkedList;
 
 /**
  * Created by Admin on 22.05.14.
@@ -79,10 +79,12 @@ public class EventStore implements  IEventStore{
            Files.walkFileTree(Paths.get(ROOT), fileProcessor);
     }
     public void LoadEvent (Path aFile) throws JAXBException{
+
         JAXBContext context = JAXBContext.newInstance(EventAdapter.class);
         Unmarshaller um = context.createUnmarshaller();
         EventAdapter eventAdapter = (EventAdapter) um.unmarshal(aFile.toFile());
         addEvent(eventAdapter.getEvent());
+
     }
 
     private  final class ProcessFile extends SimpleFileVisitor<Path> {
